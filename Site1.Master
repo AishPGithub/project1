@@ -1,0 +1,150 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Sharemarket.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>my layout</title>  
+    <link rel="stylesheet" type="text/css" href="masterpage.css">  
+  
+    <asp:ContentPlaceHolder ID="head" runat="server">
+         <title>SHARE MARKET</title>
+         <link href="masterpage.css" rel="stylesheet" />
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style3 {
+            color: #FFFFFF;
+        }
+        .auto-style4 {
+            width: 34px;
+            height: 27px;
+
+        }
+        .blink {
+        text-decoration: blink;
+        color: #1c87c9;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: sans-serif;
+      }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+    <body>  
+        <html>  
+        <body>  
+            <header id="header">  
+                <h1>&nbsp;</h1>
+                <h1><strong>SHARE MARKET PORTAL</strong></h1>
+                <p>&nbsp;</p>
+</header>  
+<nav id="nav">  
+ 
+   
+         
+   
+           <li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="homepage.aspx">Home</a></li>  
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="AAVshareLish.aspx">Stock</a></li>  
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Dashboard.aspx">Dashboard</a></li>  
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#">Funds</a></li>  
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="AboutUs.aspx">About Us</a></li>
+        
+        <li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+    </ul> 
+    
+</nav>  
+<aside id="side">  
+    <marquee>
+    <a href="https://www.msn.com/en-in/money/markets?cvid=cee9a3321a6c45ee94572932fab1d417&duration=1D"><p class="auto-style3">Index</p>
+    <p class="auto-style3">&nbsp;</p>
+    <a href="https://economictimes.indiatimes.com/markets/stocks"><p class="auto-style3">News</p>
+    <a href="https://in.investing.com/equities/trending-stocks"> <p class="auto-style3">&nbsp;</p><p class="auto-style3">Trending</p>
+    <a href="https://www.indiainfoline.com/markets/hot-stocks"> <p class="auto-style3">&nbsp;</p><p class="auto-style3">Top Buys</p>
+    </a> 
+    </marquee>
+</aside>  
+  
+  
+    <div id="con">  
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">  
+          
+        </asp:ContentPlaceHolder>  
+    </div>
+       <section>Copyright</section>
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>share market<span>portal</span></h3>
+
+				<p class="footer-links">
+					<a href="#" class="link-1">Homeme</a>
+					
+					<a href="#">Blog</a>
+				
+					<a href="#">Pricing</a>
+				
+					<a href="#">About</a>
+					
+					<a href="#">Faq</a>
+					
+					<a href="#">Contact</a>
+				</p>
+
+				<p class="footer-company-name">Share Market Portal © 2022</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>ICCS</span> PUNE.</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+917499042948</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="aishwarya.phatangare@iccs.ac.in">contact us</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the company</span>
+					It is a online platform where company can sell their sells to customers and also customer can buy that share and then sell it to other customer or organisation.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"><img src="images/fb.png"</i class="auto-style4"></a>
+					<a href="https://twitter.com/home"><i class="fa fa-twitter"><img src="images/twitter.png"</i class="auto-style4"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    
+                    <a href="https://www.linkedin.com/in/aishwarya-phatangare-346068230/"> <i class="fa fa-linkedin"><img src="images/linkedIn.png"</i class="auto-style4"></a>
+					<a href="#"><i class="fa fa-github"><img src="images/git.png"</i class="auto-style4"></a>
+
+				</div>
+
+			    
+
+			</div>
+
+		</footer> 
+    
+  
+</body>  
+    </form>
+
+    </html>  

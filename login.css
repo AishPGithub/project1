@@ -1,0 +1,10 @@
+﻿body {
+    border:10px ridge black;
+    margin: auto;
+    padding: 50px;
+    background-size: cover;
+    background-image: url('images/SHARE.jpg');
+   
+    font-family: sans-serif;
+    height: 924px;
+}
