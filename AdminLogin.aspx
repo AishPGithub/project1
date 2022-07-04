@@ -32,6 +32,9 @@
             font-weight: 700;
             font-size: large;
         }
+        .auto-style10 {
+            margin-left: 720px;
+        }
     </style>
 </head>
 <body>
@@ -72,9 +75,16 @@
         <div class="auto-style4">
             <br />
             <br />
-            <asp:Button ID="Button1" runat="server" CssClass="auto-style5" Height="36px"  Text="Button" Width="136px" PostBackUrl="~/AdminMain.aspx" />
+            <asp:Button ID="Button1" runat="server" CssClass="auto-style5" Height="36px"  Text="Button" Width="136px"  OnClick="Button1_Click" />
+            <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
             <br />
             
+        </div>
+        <br />
+        <div class="auto-style4">
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Aregister.aspx">New Admin....Register</asp:HyperLink>
+        </div>
+        <div class="auto-style10">
         </div>
     </form>
 </body>

@@ -34,7 +34,8 @@
             <asp:TextBox ID="TextBox3" runat="server" Height="75px" Width="252px"></asp:TextBox><br />
         </p>
         <p>
-            <asp:Button ID="Button1" runat="server" Text="SAVE" CssClass="auto-style6" Height="37px" Width="81px" />
+            <asp:Button ID="Button1" runat="server" Text="SAVE" CssClass="auto-style6" Height="37px" Width="81px" OnClick="Button1_Click" />
+            <asp:Literal ID="Literal1" runat="server"></asp:Literal>
         </p>
         <p>&nbsp;</p>
         <p>&nbsp;</p>

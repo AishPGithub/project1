@@ -72,9 +72,10 @@
             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox2" ErrorMessage="Enter Password"></asp:RequiredFieldValidator>
             <br />
             <br />
-            <asp:Button ID="Button1" runat="server" CssClass="auto-style5" Height="36px" OnClick="Button1_Click" Text="Login" Width="136px" PostBackUrl="~/CompanyMainaspx.aspx" />
+            <asp:Button ID="Button1" runat="server" CssClass="auto-style5" Height="36px" OnClick="Button1_Click" Text="Login" Width="136px" />
+            <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
             <br />
-            <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Cregister.aspx" runat="server">New Comapny!!SignIN</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Cregister.aspx" runat="server">New Comapny??SignIN</asp:HyperLink>
         </div>
     </form>
 </body>

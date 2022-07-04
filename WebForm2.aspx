@@ -105,13 +105,14 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<strong><span class="auto-style8">Password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></strong>
             <asp:TextBox ID="TextBox4" placeholder="ENTER PASSWORD" runat="server" CssClass="auto-style14" Height="29px" Width="427px" TextMode="Password"></asp:TextBox>
                 <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox4" ErrorMessage="Enter Password" ForeColor="White" ValidationExpression="^[A-Za-z0-9]{5,8}$"></asp:RegularExpressionValidator>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TextBox4" ErrorMessage="enter Password"></asp:RequiredFieldValidator>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TextBox4" ErrorMessage="enter Password" ForeColor="White"></asp:RequiredFieldValidator>
         </p>
         <p class="auto-style1">
                 &nbsp;</p>
         <p class="auto-style1">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="auto-style8"><strong>Confrim Password&nbsp;&nbsp;&nbsp;&nbsp; </strong></span>
-            <asp:TextBox ID="TextBox5" placeholder="CONFIRM PASSWORD" runat="server" OnTextChanged="TextBox5_TextChanged" CssClass="auto-style15" Height="29px" Width="427px"></asp:TextBox>
+            <asp:TextBox ID="TextBox5" placeholder="CONFIRM PASSWORD" runat="server" OnTextChanged="TextBox5_TextChanged" CssClass="auto-style15" Height="29px" Width="427px" TextMode="Password"></asp:TextBox>
+                <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="TextBox4" ControlToValidate="TextBox5" ErrorMessage="Incorrect Password" ForeColor="White"></asp:CompareValidator>
                 <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="TextBox5" ErrorMessage="Re-Enter Password" ForeColor="White" ValidationExpression="^[A-Za-z0-9]{5,8}$"></asp:RegularExpressionValidator>
         </p>
         <p class="auto-style1">
@@ -119,7 +120,8 @@
        
         <p class="auto-style1">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="margin-left: 129px; font-weight: 700; background-color: #00CC00;" Text="Register" Height="34px" Width="471px" PostBackUrl="~/WebForm1.aspx" />
+           <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="margin-left: 129px; font-weight: 700; background-color: #00CC00;" Text="Register" Height="34px" Width="471px"   />
+                <asp:Literal ID="Literal1" runat="server"></asp:Literal>
         </p>
         <p class="auto-style1">
                 &nbsp;</p>
