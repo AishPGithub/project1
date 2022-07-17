@@ -64,6 +64,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
     </Reference>
+    <Reference Include="MySql.Data.EntityFramework, Version=8.0.29.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Web, Version=8.0.29.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
     </Reference>
@@ -193,6 +195,7 @@
     <Content Include="Cregister.aspx" />
     <Content Include="CShareSoldList.aspx" />
     <Content Include="Dashboard.aspx" />
+    <Content Include="dashboard.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -207,6 +210,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="homepage.css" />
     <Content Include="images\Back.png" />
+    <Content Include="images\dash.png.jpg" />
     <Content Include="images\fb.png" />
     <Content Include="images\git.png" />
     <Content Include="images\header.png" />
@@ -217,7 +221,6 @@
     <Content Include="images\REG.png" />
     <Content Include="images\twitter.png" />
     <Content Include="Properties\Reg.aspx" />
-    <Content Include="registration.aspx" />
     <Content Include="images\SHARE.jpg" />
     <Content Include="login.css" />
     <Content Include="register.css" />
@@ -228,6 +231,8 @@
     <Content Include="AdminMain.aspx" />
     <Content Include="ACompanyList.aspx" />
     <Content Include="AcustomerList.aspx" />
+    <Content Include="WebForm6.aspx" />
+    <Content Include="Buyshares.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -396,13 +401,6 @@
     <Compile Include="Properties\Reg.aspx.designer.cs">
       <DependentUpon>Reg.aspx</DependentUpon>
     </Compile>
-    <Compile Include="registration.aspx.cs">
-      <DependentUpon>registration.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="registration.aspx.designer.cs">
-      <DependentUpon>registration.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Site.Mobile.Master.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -465,6 +463,20 @@
     </Compile>
     <Compile Include="AcustomerList.aspx.designer.cs">
       <DependentUpon>AcustomerList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm6.aspx.cs">
+      <DependentUpon>WebForm6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm6.aspx.designer.cs">
+      <DependentUpon>WebForm6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buyshares.aspx.cs">
+      <DependentUpon>Buyshares.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Buyshares.aspx.designer.cs">
+      <DependentUpon>Buyshares.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

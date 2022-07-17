@@ -15,43 +15,30 @@
             .auto-style4 {
                 width: 104px;
             }
-            .auto-style6 {
-                width: 158px;
-            }
-            .auto-style7 {
-                width: 94px;
-            }
-            .auto-style8 {
-                width: 169px;
-            }
             .auto-style9 {
+                background-color: #3399FF;
+            }
+            .auto-style10 {
+                width: 333px;
+                height: 45px;
+            
                 background-color: #3399FF;
             }
             </style>
             </head>
     <center>
-    <h1 class="auto-style9">Applicant List</h1> 
-        <br /> <br />
-    <table>
-        <tr>
-            <th class="auto-style6">Usename</th>
-             <th class="auto-style6">Applicant Name</th>
-            
-             <th class="auto-style8">Email</th>
-             <th class="auto-style4">Phone no</th>
-            <th class="auto-style7">Qualification</th>
-        </tr>
-        <tr>
-            <td class="auto-style6"></td>
-            <td class="auto-style6"></td>
-            <td class="auto-style7"></td>
-            <td class="auto-style8"></td>
-            <td class="auto-style4"></td>
-        </tr>
-        </table>
+    <h1 class="auto-style10">Applicant List</h1> 
+    
         
-        </center>
+       
         <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
         <br />
+    <br />
+        <br />
+         </center>
         </html>
 </asp:Content>

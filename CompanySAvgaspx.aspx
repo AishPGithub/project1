@@ -19,30 +19,27 @@
                 width: 158px;
                 height: 107px;
             }
-            .auto-style7 {
-                width: 158px;
-                height: 157px;
+            .auto-style10 {
+                width: 503px;
+                margin-left: 21px;
+                height: 53px;
             }
             </style>
             </head>
  <center>
-    <h1 class="auto-style9">Company Share Daily Value</h1> 
-     </center>
+    <h1 class="auto-style10">Company Share Daily Value</h1> 
+     
+        &nbsp;&nbsp;&nbsp;
+    <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:PlaceHolder  ID="PlaceHolder2" runat="server"></asp:PlaceHolder>
         <br /> <br />
-    <table>
-        <tr>
-            <th class="auto-style6">tDate</th>
-             <th class="auto-style6">Price</th>
-             </tr>
-        <tr>
-            <td class="auto-style7"></td>
-            <td class="auto-style7"></td>
-             </tr>
-        </table>
+   
         
 
         <br />
         <br />
+     </center>
         </html>
 </asp:Content>
 

@@ -15,42 +15,27 @@
             .auto-style4 {
                 width: 104px;
             }
-            .auto-style6 {
-                width: 158px;
-            }
-            .auto-style7 {
-                width: 94px;
-            }
-            .auto-style8 {
-                width: 169px;
-            }
             .auto-style9 {
+                background-color: #3399FF;
+            }
+            .auto-style10 {
+                width: 331px;
+                height: 40px;
+                margin-left: 21px;
                 background-color: #3399FF;
             }
             </style>
             </head>
     <center>
-    <h1 class="auto-style9">Company List</h1> 
+    <h1 class="auto-style10">Company List</h1> 
         <br /> <br />
-    <table>
-        <tr>
-            <th class="auto-style6">Usename</th>
-             <th class="auto-style6">Company Name</th>
-             <th class="auto-style7">cAdd</th>
-             <th class="auto-style8">Email</th>
-             <th class="auto-style4">Phone no</th>
-        </tr>
-        <tr>
-            <td class="auto-style6"></td>
-            <td class="auto-style6"></td>
-            <td class="auto-style7"></td>
-            <td class="auto-style8"></td>
-            <td class="auto-style4"></td>
-        </tr>
-        </table>
+    
         
+        
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
+        <br />
+        <br />
         </center>
-        <br />
-        <br />
         </html>
 </asp:Content>

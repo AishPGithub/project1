@@ -18,47 +18,29 @@
             .auto-style6 {
                 width: 158px;
             }
-            .auto-style7 {
-                width: 94px;
-            }
             .auto-style8 {
                 width: 169px;
             }
             .auto-style9 {
                 background-color: #3399FF;
             }
-            .auto-style10 {
-                width: 147px;
-            }
-            .auto-style11 {
-                width: 147px;
-                height: 27px;
+            .auto-style12 {
+                width: 391px;
+                height: 56px;
+                text-align: center;
+                margin-left: 461px;
+                background-color: #3399FF;
             }
             </style>
             </head>
+    <h1 class="auto-style12">Company Share List</h1>
     <center>
-    <h1 class="auto-style9">Company Share List</h1> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
+        <br />
+        <br />
         <br /> <br />
-    <table>
-        <tr>
-            <th class="auto-style6">sNo</th>
-             <th class="auto-style6">sDate</th>
-            
-             <th class="auto-style8">Total Shares</th>
-             <th class="auto-style4">Price</th>
-            <th class="auto-style10">Balance Shares</th>
- 
-        </tr>
-        <tr>
-            <td class="auto-style6"></td>
-            <td class="auto-style6"></td>
-            <td class="auto-style7"></td>
-            <td class="auto-style8"></td>
-            <td class="auto-style11"></td>
-            
-        
-        </tr>
-        </table>
+    
         
         </center>
         <br />

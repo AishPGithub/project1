@@ -15,43 +15,29 @@
             .auto-style4 {
                 width: 104px;
             }
-            .auto-style6 {
-                width: 158px;
-            }
-            .auto-style7 {
-                width: 94px;
-            }
-            .auto-style8 {
-                width: 169px;
-            }
             .auto-style9 {
+                background-color: #3399FF;
+            }
+            .auto-style10 {
+                background-color: #66FF33;
+            }
+            .auto-style11 {
+                width: 386px;
+                height: 45px;
+                text-align: center;
+                margin-left: 461px;
                 background-color: #3399FF;
             }
             </style>
             </head>
+    <h1 class="auto-style11">Share Sell List</h1> 
     <center>
-    <h1 class="auto-style9">Share Sell List</h1> 
-        <br /> <br />
-    <table>
-        <tr>
-            <th class="auto-style6">tNo</th>
-             <th class="auto-style6">tDate</th>
-            
-             <th class="auto-style8">CustCode</th>
-             <th class="auto-style4">Company Code</th>
-            <th class="auto-style7">Share Price</th>
-            <th class="auto-style7">PQuantity</th>
-        </tr>
-        <tr>
-            <td class="auto-style6"></td>
-            <td class="auto-style6"></td>
-            <td class="auto-style7"></td>
-            <td class="auto-style8"></td>
-            <td class="auto-style4"></td>
-            
-            <td class="auto-style4"></td>
-        </tr>
-        </table>
+        <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
+        <br />
+        <br /> 
+        <asp:Button ID="Button1" runat="server" Height="31px" Text="BUY" Width="94px" CssClass="auto-style10" PostBackUrl="~/Buyshares.aspx" />
+        <br />
+    
         
         </center>
         <br />

@@ -12,11 +12,8 @@
          <link href="masterpage.css" rel="stylesheet" />
     </asp:ContentPlaceHolder>
     <style type="text/css">
-        .auto-style3 {
-            color: #FFFFFF;
-        }
         .auto-style4 {
-            width: 34px;
+            width: 24px;
             height: 27px;
 
         }
@@ -27,6 +24,22 @@
         font-weight: bold;
         font-family: sans-serif;
       }
+        .auto-style5 {
+            width: 26px;
+            height: 25px;
+        }
+        .auto-style6 {
+            width: 30px;
+            height: 27px;
+        }
+        .auto-style8 {
+            width: 31px;
+            height: 26px;
+        }
+        .auto-style9 {
+            width: 13px;
+            margin-left: 21px;
+        }
         </style>
 </head>
 <body>
@@ -56,9 +69,8 @@
         <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="AboutUs.aspx">About Us</a></li>
         
         <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-            &nbsp;</li>
-    </ul> 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
+&nbsp;</ul> 
     
 </nav>  
 <aside id="side">  
@@ -129,13 +141,12 @@
 
 				<div class="footer-icons">
 
-					<a href="#"><i class="fa fa-facebook"><img src="images/fb.png"</i class="auto-style4"></a>
-					<a href="https://twitter.com/home"><i class="fa fa-twitter"><img src="images/twitter.png"</i class="auto-style4"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="#"><i class="fa fa-facebook"><img src="images/fb.png"</i class="auto-style5"></a>
+					<a href="https://twitter.com/home"><i class="fa fa-twitter"><img src="images/twitter.png"</i class="auto-style6"></a>&nbsp;&nbsp;&nbsp;&nbsp;
                     
-                    <a href="https://www.linkedin.com/in/aishwarya-phatangare-346068230/"> <i class="fa fa-linkedin"><img src="images/linkedIn.png"</i class="auto-style4"></a>
-					<a href="#"><i class="fa fa-github"><img src="images/git.png"</i class="auto-style4"></a>
-
-				</div>
+                    <i class="fa fa-linkedin">&nbsp;<i class="fa fa-github">
+                    
+                    <a href="https://www.linkedin.com/in/aishwarya-phatangare-346068230/" class="auto-style9" > <img src="images/linkedIn.png"</i class="auto-style4"></a><a href="#"><img src="images/git.png"</i class="auto-style8"></a></div>
 
 			    
 

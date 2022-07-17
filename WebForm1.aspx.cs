@@ -46,7 +46,7 @@ namespace Sharemarket
             cmd.ExecuteNonQuery();
             if (dt.Rows.Count > 0)
             {
-                Response.Redirect("homepage.aspx");
+                Response.Redirect("~/AdminMain.aspx");
             }
             else
             {

@@ -18,40 +18,25 @@
             .auto-style6 {
                 width: 158px;
             }
-            .auto-style7 {
-                width: 94px;
-            }
             .auto-style8 {
                 width: 169px;
             }
             .auto-style9 {
                 background-color: #6699FF;
             }
+            .auto-style11 {
+                background-color: #0099FF;
+            }
             </style>
             </head>
     <center>
-    <h1 class="auto-style9">Share Purchased List</h1> 
-        <br /> <br />
-    <table>
-        <tr>
-            <th class="auto-style6">tNo</th>
-             <th class="auto-style6">tDate</th>
-            
-             <th class="auto-style8">CustCode</th>
-             <th class="auto-style4">Company Code</th>
-            <th class="auto-style7"> Price</th>
-            <th class="auto-style7">Quantity</th>
-        </tr>
-        <tr>
-            <td class="auto-style6"></td>
-            <td class="auto-style6"></td>
-            <td class="auto-style7"></td>
-            <td class="auto-style8"></td>
-            <td class="auto-style4"></td>
-            
-            <td class="auto-style4"></td>
-        </tr>
-        </table>
+        
+    <h1 class="auto-style11" >Share Purchased List</h1> 
+        <br /> 
+        <br />
+      <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
+        <br />
+    
         
         </center>
         <br />
